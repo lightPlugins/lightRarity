@@ -1,4 +1,4 @@
-package de.lightplugins.repair.util;
+package de.lightplugins.rarity.util;
 
 import org.bukkit.entity.Player;
 

@@ -1,4 +1,4 @@
-package de.lightplugins.repair.enums;
+package de.lightplugins.rarity.enums;
 
 public enum PersistentDataPaths {
 

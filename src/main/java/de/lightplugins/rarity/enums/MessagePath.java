@@ -1,7 +1,7 @@
-package de.lightplugins.repair.enums;
+package de.lightplugins.rarity.enums;
 
 import org.bukkit.configuration.file.FileConfiguration;
-import de.lightplugins.repair.master.Main;
+import de.lightplugins.rarity.master.Main;
 
 public enum MessagePath {
 

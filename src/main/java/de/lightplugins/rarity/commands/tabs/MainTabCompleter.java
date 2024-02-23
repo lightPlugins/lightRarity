@@ -1,6 +1,6 @@
-package de.lightplugins.repair.commands.tabs;
+package de.lightplugins.rarity.commands.tabs;
 
-import de.lightplugins.repair.master.Main;
+import de.lightplugins.rarity.master.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -27,26 +27,6 @@ public class MainTabCompleter implements TabCompleter {
 
             if(player.hasPermission("lightrepair.admin.command.reload")) {
                 arguments.add("reload");
-            }
-
-            return arguments;
-        }
-
-        if(args.length == 2) {
-            List<String> arguments = new ArrayList<>();
-
-            if(player.hasPermission("lightrepair.admin.command.get")) {
-                Bukkit.getServer().getOnlinePlayers().forEach(p -> arguments.add(p.getName()));
-            }
-
-            return arguments;
-        }
-
-        if(args.length == 3) {
-            List<String> arguments = new ArrayList<>();
-
-            if(player.hasPermission("lightrepair.admin.command.get")) {
-                arguments.addAll(Main.kitBuilder.getKitNames());
             }
 
             return arguments;

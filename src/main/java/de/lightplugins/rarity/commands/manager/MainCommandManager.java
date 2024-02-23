@@ -1,11 +1,9 @@
-package de.lightplugins.repair.commands.manager;
+package de.lightplugins.rarity.commands.manager;
 
-import de.lightplugins.repair.commands.main.GetKitCommand;
-import de.lightplugins.repair.commands.main.ReloadCommand;
-import de.lightplugins.repair.enums.MessagePath;
-import de.lightplugins.repair.master.Main;
-import de.lightplugins.repair.util.SubCommand;
-import org.bukkit.Bukkit;
+import de.lightplugins.rarity.commands.main.ReloadCommand;
+import de.lightplugins.rarity.enums.MessagePath;
+import de.lightplugins.rarity.master.Main;
+import de.lightplugins.rarity.util.SubCommand;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -14,7 +12,6 @@ import org.bukkit.entity.Player;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.concurrent.ExecutionException;
-import java.util.logging.Level;
 
 public class MainCommandManager implements CommandExecutor {
 
@@ -27,7 +24,6 @@ public class MainCommandManager implements CommandExecutor {
 
     public MainCommandManager(Main plugin) {
         this.plugin = plugin;
-        subCommands.add(new GetKitCommand());
         subCommands.add(new ReloadCommand());
     }
 

@@ -1,4 +1,4 @@
-package de.lightplugins.repair.util;
+package de.lightplugins.rarity.util;
 
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;

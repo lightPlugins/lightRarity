@@ -1,8 +1,8 @@
-package de.lightplugins.repair.commands.main;
+package de.lightplugins.rarity.commands.main;
 
-import de.lightplugins.repair.enums.MessagePath;
-import de.lightplugins.repair.master.Main;
-import de.lightplugins.repair.util.SubCommand;
+import de.lightplugins.rarity.enums.MessagePath;
+import de.lightplugins.rarity.master.Main;
+import de.lightplugins.rarity.util.SubCommand;
 import org.bukkit.entity.Player;
 
 public class ReloadCommand extends SubCommand {
@@ -33,7 +33,6 @@ public class ReloadCommand extends SubCommand {
         Main.kits.reloadConfig("kits.yml");
         Main.settings.reloadConfig("settings.yml");
         Main.messages.reloadConfig("messages.yml");
-        Main.kitBuilder.reloadKits();
         Main.util.sendMessage(player, MessagePath.Reload.getPath());
         Main.util.playSoundOnSuccess(player);
         return true;

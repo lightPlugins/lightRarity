@@ -1,11 +1,11 @@
-package de.lightplugins.repair.util;
-import de.lightplugins.repair.enums.MessagePath;
+package de.lightplugins.rarity.util;
+import de.lightplugins.rarity.enums.MessagePath;
 import org.bukkit.Sound;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scheduler.BukkitTask;
-import de.lightplugins.repair.master.Main;
+import de.lightplugins.rarity.master.Main;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

@@ -1,14 +1,14 @@
-package de.lightplugins.repair.master;
+package de.lightplugins.rarity.master;
 
-import de.lightplugins.repair.commands.manager.MainCommandManager;
-import de.lightplugins.repair.commands.tabs.MainTabCompleter;
-import de.lightplugins.repair.events.ItemsAdderOnLoad;
-import de.lightplugins.repair.inv.CheckItemStack;
-import de.lightplugins.repair.inv.CheckOnRepair;
-import de.lightplugins.repair.kits.KitBuilder;
-import de.lightplugins.repair.util.ColorTranslation;
-import de.lightplugins.repair.util.FileManager;
-import de.lightplugins.repair.util.Util;
+import de.lightplugins.rarity.commands.manager.MainCommandManager;
+import de.lightplugins.rarity.commands.tabs.MainTabCompleter;
+import de.lightplugins.rarity.events.ItemsAdderOnLoad;
+import de.lightplugins.rarity.inv.CheckItemStack;
+import de.lightplugins.rarity.inv.CheckOnRepair;
+import de.lightplugins.rarity.kits.KitBuilder;
+import de.lightplugins.rarity.util.ColorTranslation;
+import de.lightplugins.rarity.util.FileManager;
+import de.lightplugins.rarity.util.Util;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;

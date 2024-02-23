@@ -1,6 +1,6 @@
-package de.lightplugins.repair.util;
+package de.lightplugins.rarity.util;
 
-import de.lightplugins.repair.master.Main;
+import de.lightplugins.rarity.master.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
